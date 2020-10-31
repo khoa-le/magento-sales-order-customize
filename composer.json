@@ -1,0 +1,20 @@
+{
+    "name": "khoaln/sales",
+    "description": "Khoaln Sales",
+    "require": {
+        "php": "^7.1.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Khoaln\\Sales\\": ""
+        }
+    }
+}
